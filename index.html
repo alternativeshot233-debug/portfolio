@@ -606,7 +606,7 @@
 <div class="lightbox" id="lb"><span class="close" id="lbclose" data-cursor>×</span><img id="lb-img" src="" alt=""><iframe id="lb-yt" src="" title="Showreel" loading="lazy" allow="autoplay; encrypted-media; picture-in-picture; web-share" allowfullscreen style="display:none;max-width:92%;width:1280px;aspect-ratio:16/9;border:0;border-radius:5px;background:#000"></iframe></div>
 
 <script>
-  document.body.classList.add('js-on');
+  document.body.classList.add('js-on');if('scrollRestoration' in history)history.scrollRestoration='manual';window.scrollTo(0,0);addEventListener('load',()=>window.scrollTo(0,0));
   document.getElementById('year').textContent=new Date().getFullYear();
   const isFine=window.matchMedia('(hover:hover) and (pointer:fine)').matches;
 
